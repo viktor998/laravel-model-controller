@@ -1,1 +1,48 @@
-//
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    .movies{
+
+
+        .movie{
+            margin-left: 4em;
+            margin-top: 1em;
+            .info_movie{
+                display: flex;
+    
+                img{
+                    height: 200px;
+                }
+    
+                .info{
+                    margin-left: 1em;
+                    display: flex;
+                    flex-direction: column;
+                    
+                }
+
+                .stars{
+                    display: flex;
+                    margin-top: auto;
+                    align-self: end;
+
+                    .stars_fill{
+                        svg{
+                            fill: yellow;
+                        }
+                    }
+
+                    .stars_white{
+                        padding-top: 2px;
+                        padding-left: 2px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

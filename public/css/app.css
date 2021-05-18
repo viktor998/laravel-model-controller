@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main .movies .movie {
+  margin-left: 4em;
+  margin-top: 1em;
+}
+
+main .movies .movie .info_movie {
+  display: flex;
+}
+
+main .movies .movie .info_movie img {
+  height: 200px;
+}
+
+main .movies .movie .info_movie .info {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+main .movies .movie .info_movie .stars {
+  display: flex;
+  margin-top: auto;
+  align-self: end;
+}
+
+main .movies .movie .info_movie .stars .stars_fill svg {
+  fill: yellow;
+}
+
+main .movies .movie .info_movie .stars .stars_white {
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
