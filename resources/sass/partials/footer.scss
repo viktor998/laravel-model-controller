@@ -1,0 +1,18 @@
+footer{
+    .rights{
+        width: 100vw;
+        height: 40px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+
+        span{
+            color: white;
+            margin-left: auto;
+            justify-self: end;
+            padding-right: 30px;
+            font-size: .5em;
+            letter-spacing: 2px;
+        }
+    }
+}

@@ -8,10 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <header></header>
+    @include ('partials.header')
     <main>
         @yield('content-movie')
     </main>
-    <footer></footer>
+    @include ('partials.footer')
 </body>
 </html>

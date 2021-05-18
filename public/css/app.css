@@ -1,12 +1,44 @@
+header .search {
+  width: 100vw;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .search input {
+  padding: 10px 12px;
+}
+
+footer .rights {
+  width: 100vw;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+footer .rights span {
+  color: white;
+  margin-left: auto;
+  justify-self: end;
+  padding-right: 30px;
+  font-size: 0.5em;
+  letter-spacing: 2px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 main .movies .movie {
   margin-left: 4em;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 main .movies .movie .info_movie {

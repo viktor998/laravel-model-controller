@@ -1,0 +1,14 @@
+header{
+    .search{
+        width: 100vw;
+        height: 80px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input{
+            padding: 10px 12px;
+        }
+    }
+}

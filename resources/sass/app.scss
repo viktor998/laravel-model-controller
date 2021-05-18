@@ -1,7 +1,10 @@
+@import './partials/header.scss';
+@import './partials/footer.scss';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 main{
@@ -11,6 +14,7 @@ main{
         .movie{
             margin-left: 4em;
             margin-top: 1em;
+            margin-bottom: 1em;
             .info_movie{
                 display: flex;
     
